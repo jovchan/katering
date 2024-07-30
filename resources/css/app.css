@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Bebas';
+    src: url('/public/fonts/BebasNeue-Regular.otf') format('opentype');
+}
+
+.header{
+    font-family: 'Bebas';
+}
+
+body{
+    background-color: #FEF7EC;
+}

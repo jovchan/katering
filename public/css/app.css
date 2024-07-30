@@ -1,0 +1,33 @@
+@font-face {
+    font-family: Bebas;
+    src: url(../fonts/BebasNeue-Regular.otf);
+}
+@font-face {
+    font-family: Mont;
+    src: url(../fonts/Mont-ExtraLightDEMO.otf);
+}
+@font-face {
+    font-family: Monte;
+    src: url(../fonts/Mont-HeavyDEMO.otf);
+}
+
+.bebas{
+    font-family: Bebas;
+}
+
+.mont{
+    font-family: Mont;
+}
+.monte{
+    font-family: Monte;
+}
+
+body{
+    background-color: #FEF7EC;
+    /* font-size: 50px; */
+    color: #069E68;
+}
+
+.capitalize-first::first-letter {
+    text-transform: uppercase;
+  }
